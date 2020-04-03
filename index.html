@@ -15,132 +15,131 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/surs.css">
+  <link rel="stylesheet" href="css/surs_newer.css">
 
   <!-- Hamburger menu icon-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
+    <!--Fallback in a (highly unlikely, but still) case of cdn not being available-->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <!--<script>window.jQuery || document.write('<script src="js/jquery-3.4.1.min.js"></script>')</script>-->
 
-<!-- NAVBAR -->
-<div id="navbar" class="menu">
-  <div class="left-aligned">
-  <a href="/StatWeb/" target="_self">
-    <img src="img/Logo_web_SLO.svg" alt="Statistični urad RS" class="surs-logo">
-  </a>
-  </div>
+    <script src="js/main.js"></script>
 
-  <div class="icon">
-    <a href="javascript:void(0);" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
+  <!-- NAVBAR -->
+  <nav id="navbar" class="menu">
+    <div class="left-aligned">
+    <a href="/StatWeb/" target="_self">
+      <img src="img/Logo_web_SLO.svg" alt="Statistični urad RS" class="surs-logo">
     </a>
-  </div>
-  <div class="menu-container">
-    <div class="menu-element">
-      <a href="">stat.si</a>
     </div>
-    <div class="menu-element">
-      <a href="">EN</a>
+
+    <div class="icon">
+      <a href="javascript:void(0);" onclick="hamburgerFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-</div>
 
-</div>
+    <div class="menu-container">
+      <div class="menu-element">
+        <a href="">stat.si</a>
+      </div>
+      <div class="menu-element">
+        <a href="">EN</a>
+      </div>
+    </div>
+
+  </nav>
 
 
-<!-- MAIN CONTENT-->
+  <!-- MAIN CONTENT-->
 
-<div id="main-content">
-  <p>Hello SURS!</p>
-
-</div>
-
-
-<!-- FOOTER -->
-
-<div id="footer-wrapper">
-<footer>  
-  <div id="footer-container">
-  <div class="flex">
-      <h1>Kontakt</h1>
-
-      <ul class="surs-footer-list">
-          <li><a href="https://www.google.si/maps/place/Statisti%C4%8Dni+urad+Republike+Slovenije/@46.0823242,14.4942302,17z/data=!4m13!1m7!3m6!1s0x476532ce502f3eeb:0x40c69ef032953f47!2sLitostrojska+Cesta+54,+1000+Ljubljana!3b1!8m2!3d46.08232!4d14.496418!3m4!1s0x476532ceec83a109:0xf89c3f2cbeba11ec!8m2!3d46.0818006!4d14.4972484?hl=sl" target="_blank">Statistični urad RS<br>
-Litostrojska cesta 54<br>
-1000 Ljubljana</a></li>
-          <li>
-              <a href="tel:+38612416400" class="contact-tel">T: (01) 241 64 00</a>
-          </li>
-          <li>E: gp.surs@gov.si</li>
-          <li class="li-highlightened"><a href="/StatWeb/Home/Contact" class="highlighted" target="_self">Osebna izkaznica</a></li>
-          <li class="li-social"> <a href="https://twitter.com/statslovenija" target="_blank"><span class="icon-twitter surs-icon-footer surs-icon-tw-blue" aria-hidden="true"></span></a></li>
-          <li class="li-social"> <a href="https://www.facebook.com/StatSlovenija/" target="_blank"><span class="icon-fb surs-icon-footer surs-icon-fb-blue" aria-hidden="true"></span></a></li>
-          <li class="li-social"><a href="https://vimeo.com/channels/surs" target="_blank"><span class="icon-vimeo surs-icon-footer surs-icon-blue" aria-hidden="true"></span></a></li>
-          <li class="li-social"> <a href="/StatWeb/Rss" target="_self"><span class="icon-rss surs-icon-footer surs-icon-orange" aria-hidden="true"></span></a></li>
-          <li class="li-social"> <a href="https://www.youtube.com/user/StatSlovenia/" target="_blank"><span class="icon-youtube surs-icon-footer surs-icon-youtube" aria-hidden="true"></span></a></li>
-      </ul>
-
+  <div id="main-content">
+    <p>Hello SURS!</p>
   </div>
 
-  <div class="flex">
-    <h1>
-        Produkti
-    </h1>
-    <ul class="surs-footer-list">
-        <li> <a href="https://www.stat.si/StatWeb" target="_blank">Spletna stran SURS</a></li>        
-        <li> <a href="https://www.stat.si/imenarojstva" target="_blank">Imena in rojstni dnevi</a></li>
-        <li> <a href="https://pxweb.stat.si" target="_blank">Podatkovna baza SiStat</a></li>
-        <li> <a href="https://www.stat.si/statweb/ReleaseCal" target="_blank">Koledar objav</a></li>
-        <li> <a href="https://www.stat.si/statweb/catalogue/index" target="_blank">Publikacije</a></li>
-        <li> <a href="https://www.stat.si/poppiramida/piramida2.asp" target="_blank">Prebivalstvena piramida</a></li>
-        <li> <a href="https://www.stat.si/preracuninew" target="_blank">Revalorizacija denarnih zneskov</a></li>
-        <li> <a href="https://www.stat.si/preracuninew/preracuninflacije" target="_blank">Preračun inflacije</a></li>
-        <li> <a href="https://gis.stat.si" target="_blank">Podatki v prostoru STAGE</a></li>
-        <li> <a href="https://www.stat.si/obcine" target="_blank">Regije in občine v številkah</a></li>
-        <li> <a href="https://www.stat.si/krajevnaimena/" target="_blank">Krajevna imena</a></li>
-        <li> <a href="https://www.stat.si/Pages/cilji" target="_blank">Kazalniki trajnostnega razvoja</a></li>
-    </ul>
-</div>
 
-  
-<div class="flex">
-  <h1>Druge podatkovne baze</h1>
-  <ul class="surs-footer-list">
-      <li>
-          <a href="https://podatki.gov.si/">OPSI - Odprti podatki Slovenije</a>
-      </li>
-      <li>
-          <a href="https://ec.europa.eu/eurostat/data/database">Podatkovna baza Eurostat</a>
-      </li>
-  </ul>
-  <h1>Izpostavljena vsebina</h1>
-  <ul class="surs-footer-list">
-      <li>
-          <a href="/SiStat/sl/Home/Cookies">Piškotki</a>
-      </li>
-      <li>                                    
-          <a href="https://www.stat.si/StatWeb/StaticPages/Index/Copyright">Avtorske pravice</a>
-      </li>
-  </ul>
-</div>
-</div>
-<div id="surs-copyright">
-  <a href="/StatWeb/StaticPages/Index/Copyright" target="_self"> © Statistični urad Republike Slovenije</a>
-</div>
+  <!-- FOOTER -->
 
-</footer>
-</div>
-</body>
+    <div id="footer-wrapper">
+      <footer>  
+        <div id="footer-container">
+        <div class="section">
+            <h1>Kontakt</h1>
+
+            <ul class="surs-footer-list">
+                <li><a href="https://www.google.si/maps/place/Statisti%C4%8Dni+urad+Republike+Slovenije/@46.0823242,14.4942302,17z/data=!4m13!1m7!3m6!1s0x476532ce502f3eeb:0x40c69ef032953f47!2sLitostrojska+Cesta+54,+1000+Ljubljana!3b1!8m2!3d46.08232!4d14.496418!3m4!1s0x476532ceec83a109:0xf89c3f2cbeba11ec!8m2!3d46.0818006!4d14.4972484?hl=sl" target="_blank">Statistični urad RS<br>
+      Litostrojska cesta 54<br>
+      1000 Ljubljana</a></li>
+                <li>
+                    <a href="tel:+38612416400" class="contact-tel">T: (01) 241 64 00</a>
+                </li>
+                <li>E: gp.surs@gov.si</li>
+                <li class="li-highlightened"><a href="/StatWeb/Home/Contact" class="highlighted" target="_self">Osebna izkaznica</a></li>
+                <li class="li-social"> <a href="https://twitter.com/statslovenija" target="_blank"><span class="icon-twitter surs-icon-footer surs-icon-tw-blue" aria-hidden="true"></span></a></li>
+                <li class="li-social"> <a href="https://www.facebook.com/StatSlovenija/" target="_blank"><span class="icon-fb surs-icon-footer surs-icon-fb-blue" aria-hidden="true"></span></a></li>
+                <li class="li-social"><a href="https://vimeo.com/channels/surs" target="_blank"><span class="icon-vimeo surs-icon-footer surs-icon-blue" aria-hidden="true"></span></a></li>
+                <li class="li-social"> <a href="/StatWeb/Rss" target="_self"><span class="icon-rss surs-icon-footer surs-icon-orange" aria-hidden="true"></span></a></li>
+                <li class="li-social"> <a href="https://www.youtube.com/user/StatSlovenia/" target="_blank"><span class="icon-youtube surs-icon-footer surs-icon-youtube" aria-hidden="true"></span></a></li>
+            </ul>
+
+        </div>
+
+        <div class="section">
+          <h1>
+              Produkti
+          </h1>
+          <ul class="surs-footer-list">
+              <li> <a href="https://www.stat.si/StatWeb" target="_blank">Spletna stran SURS</a></li>        
+              <li> <a href="https://www.stat.si/imenarojstva" target="_blank">Imena in rojstni dnevi</a></li>
+              <li> <a href="https://pxweb.stat.si" target="_blank">Podatkovna baza SiStat</a></li>
+              <li> <a href="https://www.stat.si/statweb/ReleaseCal" target="_blank">Koledar objav</a></li>
+              <li> <a href="https://www.stat.si/statweb/catalogue/index" target="_blank">Publikacije</a></li>
+              <li> <a href="https://www.stat.si/poppiramida/piramida2.asp" target="_blank">Prebivalstvena piramida</a></li>
+              <li> <a href="https://www.stat.si/preracuninew" target="_blank">Revalorizacija denarnih zneskov</a></li>
+              <li> <a href="https://www.stat.si/preracuninew/preracuninflacije" target="_blank">Preračun inflacije</a></li>
+              <li> <a href="https://gis.stat.si" target="_blank">Podatki v prostoru STAGE</a></li>
+              <li> <a href="https://www.stat.si/obcine" target="_blank">Regije in občine v številkah</a></li>
+              <li> <a href="https://www.stat.si/krajevnaimena/" target="_blank">Krajevna imena</a></li>
+              <li> <a href="https://www.stat.si/Pages/cilji" target="_blank">Kazalniki trajnostnega razvoja</a></li>
+          </ul>
+      </div>
+
+        
+      <div class="section">
+        <h1>Druge podatkovne baze</h1>
+        <ul class="surs-footer-list">
+            <li>
+                <a href="https://podatki.gov.si/">OPSI - Odprti podatki Slovenije</a>
+            </li>
+            <li>
+                <a href="https://ec.europa.eu/eurostat/data/database">Podatkovna baza Eurostat</a>
+            </li>
+        </ul>
+        <h1>Izpostavljena vsebina</h1>
+        <ul class="surs-footer-list">
+            <li>
+                <a href="/SiStat/sl/Home/Cookies">Piškotki</a>
+            </li>
+            <li>                                    
+                <a href="https://www.stat.si/StatWeb/StaticPages/Index/Copyright">Avtorske pravice</a>
+            </li>
+        </ul>
+      </div>
+        <div id="surs-copyright">
+          <a href="/StatWeb/StaticPages/Index/Copyright" target="_self"> © Statistični urad Republike Slovenije</a>
+        </div>
+      </div>
+      </footer>
+    </div>
+  </body>
 </html>

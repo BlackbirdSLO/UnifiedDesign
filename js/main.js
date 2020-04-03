@@ -1,5 +1,5 @@
-function myFunction() {
-    var x = document.getElementById("navbar");
+function hamburgerFunction() {
+    const x = document.getElementById("navbar");
     if (x.className === "menu") {
       x.className += " extended";
     } else {
