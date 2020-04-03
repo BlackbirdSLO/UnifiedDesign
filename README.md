@@ -3,8 +3,7 @@
 Projekt je osnovan na front-end templatu html5boilerplate, https://html5boilerplate.com/.
 Vsebuje datoteke, ki nam pomagajo doseči enoten izgled aplikacij na spletišču www.stat.si.
 
-Pa poglejmo kaj vse se skriva v projektu:
-
+Pa poglejmo kaj vse se skriva v projektu (poleg index.html):
 
 ## css
 - main.css
@@ -41,7 +40,7 @@ SURS logotipa
 Fallback v primeru nedelovanja cdn omrežja in za offline development
 
 
-*********************************************
+## ostalo
 
 - apple-touch-icon.png
 - favicon-16x16.png
