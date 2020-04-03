@@ -1,0 +1,308 @@
+/* 
+   ==========================================================================
+   ------------- NAVBAR -----------------------------------------------------
+   ==========================================================================
+*/
+#navbar {
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 0;
+    min-height: 63px;
+    height: auto;
+    background-color: #25a2d1;    
+    overflow: hidden;
+}
+
+#navbar .menu-element {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 19px 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#navbar .left-aligned {
+    float: none;
+    padding: 13px 16px;
+}
+
+@media screen and (min-width: 601px) {
+    
+    #navbar div.menu-element:not(:first-child):before {
+        display: inline-block;
+        content: "";
+        position: relative;
+        height: 12px;
+        border-left: 1px solid #f1f1f1;
+        color: #f1f1f1;
+        left: -6px;
+    }
+    
+
+    #navbar .left-aligned {
+        float: left;
+        padding: 13px 16px;
+    }
+}
+
+.surs-logo {
+    height: 37px;
+}
+
+/* ICON*/
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    content: "\f0c9";
+}
+
+#navbar .icon {
+    display: none;
+}
+
+#navbar .menu-container {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar .menu-container {
+        float: left;
+    }
+}
+
+
+/* Responsive hamburger menu */
+@media screen and (max-width: 600px) {
+    #navbar .menu-element {
+        display: block;
+        float: none;
+        padding: 10px 0px;
+    }
+
+    #navbar .icon {
+      top: 20px;
+      right: 15px;
+      position: absolute;
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #navbar {
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+        transition-delay: 0s;
+    }
+
+    #navbar.menu {
+        max-height: 63px;
+    }
+
+    #navbar.extended {
+        position: relative;
+        max-height: 150px; /* INCREASE IF NEEDED (more than 2 menu elements)*/
+        transition: max-height 0.5s ease-in-out;
+    }
+
+
+    #navbar.extended a{
+      float: none;
+      display: block;
+      text-align: left;
+      width: fit-content;
+    }
+  }
+
+/* 
+   ==========================================================================
+   ----------------- BODY AND MAIN ------------------------------------------
+   ==========================================================================
+*/
+
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#main-content {
+    height: 600px;
+}
+
+
+/* 
+   ==========================================================================
+   ------------- FOOTER -----------------------------------------------------
+   ==========================================================================
+*/
+
+
+#footer-wrapper {    
+    background-color: #6b6b6b;
+}
+
+
+footer #footer-container {   
+    max-width: 1170px;
+    margin: 0px auto;
+    padding-top: 50px;
+    display: flex; 
+}
+
+
+@media (max-width: 576px) {
+    #footer-container {
+        flex-direction: column;
+    }
+
+    footer div.flex {    
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}
+
+@media (min-width: 577px) {
+    footer {
+        flex-direction: row;
+        height: 400px;
+    }
+}
+
+footer div.flex {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Headers, links and text */
+
+footer h1 {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer ul.surs-footer-list {
+    color: white;
+    font-size: 12px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul.surs-footer-list > li > a {
+    color: #fff;
+}
+
+footer ul.surs-footer-list > li.li-social {
+    display: inline;
+    margin-right: 10px;
+}
+
+/*
+footer ul.surs-footer-list > li.li-highlightened > a {
+    color: #49b0e2;
+    
+}
+*/
+
+footer ul.surs-footer-list > li.li-highlightened {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*ul.surs-footer-list > li*/
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer li {
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+
+#surs-copyright a {
+    font-size: 12px;
+    padding-top: 15px;
+    color: white;    
+}
+
+#surs-copyright {
+    text-align: center;
+}
+
+/* 
+   ==========================================================================
+   ------------- HEADINGS ---------------------------------------------------
+   ==========================================================================
+*/
+
+.h1, .h2, .h3, h1, h2, h3 {
+    /*margin-top: 20px;*/
+    margin-bottom: 10px;
+}
+
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+
+/* 
+   ==========================================================================
+   -------------------- ICONS -----------------------------------------------
+   ==========================================================================
+*/
+.surs-icon-footer {
+    font-size: 30px;
+}
+
+.surs-icon-blue {
+    color: #49b0e2;
+}
+.surs-icon-blue:hover {
+    color: #28a6e3;
+}
+.surs-icon-tw-blue {
+    color: #6ab8f1;
+}
+.surs-icon-tw-blue:hover {
+    color: #55acee;
+}
+.surs-icon-fb-blue {
+    color: #56a4f4;
+}
+.surs-icon-fb-blue:hover {
+    color: #71b3f6;
+}
+.surs-icon-contact-fb-blue {
+    color: #627ebb;
+}
+.surs-icon-contact-fb-blue:hover {
+    color: #3b5998;
+}
+.surs-icon-orange {
+    color: #f6a154;
+}
+.surs-icon-orange:hover {
+    color: #f89337;
+}
+.surs-icon-youtube {
+    color: #D86A6D;
+}
+.surs-icon-youtube:hover {
+    color: #dc3539;
+}
+

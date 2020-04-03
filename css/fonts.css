@@ -1,0 +1,367 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?srtf1');
+  src:  url('../fonts/icomoon.eot?srtf1#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?srtf1') format('truetype'),
+    url('../fonts/icomoon.woff?srtf1') format('woff'),
+    url('../fonts/icomoon.svg?srtf1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube:before {
+  content: "\e960";
+}
+.icon-attachment:before {
+  content: "\e95e";
+}
+.icon-ozemlje-ikona:before {
+  content: "\e95d";
+}
+.icon-clock-with-white-face:before {
+  content: "\e952";
+}
+.icon-two-speech:before {
+  content: "\e94f";
+}
+.icon-man-user:before {
+  content: "\e94c";
+}
+.icon-call-center-girl:before {
+  content: "\e94d";
+}
+.icon-email:before {
+  content: "\e946";
+}
+.icon-facebook:before {
+  content: "\e947";
+}
+.icon-google-plus:before {
+  content: "\e948";
+}
+.icon-gospodinjstva:before {
+  content: "\e950";
+}
+.icon-kravata:before {
+  content: "\e951";
+}
+.icon-PK:before {
+  content: "\e945";
+}
+.icon-DG:before {
+  content: "\e93f";
+}
+.icon-ME:before {
+  content: "\e940";
+}
+.icon-MM:before {
+  content: "\e941";
+}
+.icon-MP:before {
+  content: "\e942";
+}
+.icon-MPR:before {
+  content: "\e943";
+}
+.icon-OTHR:before {
+  content: "\e944";
+}
+.icon-QR:before {
+  content: "\e949";
+}
+.icon-QUE:before {
+  content: "\e94a";
+}
+.icon-VPR:before {
+  content: "\e94b";
+}
+.icon-csv-file-format:before {
+  content: "\e93e";
+}
+.icon-information-button:before {
+  content: "\e93b";
+}
+.icon-calendar-check:before {
+  content: "\e938";
+}
+.icon-download-document:before {
+  content: "\e939";
+}
+.icon-hourglass:before {
+  content: "\e93a";
+}
+.icon-pdf-file-format-symbol:before {
+  content: "\e93c";
+}
+.icon-xlsx-file-format-extension:before {
+  content: "\e93d";
+}
+.icon-frame-landscape:before {
+  content: "\e936";
+}
+.icon-camera:before {
+  content: "\e937";
+}
+.icon-placeholder-white:before {
+  content: "\e934";
+}
+.icon-calendar-white:before {
+  content: "\e935";
+}
+.icon-twitter-feed:before {
+  content: "\e933";
+  color: #fff;
+}
+.icon-phone-call:before {
+  content: "\e931";
+  color: #737373;
+}
+.icon-clock:before {
+  content: "\e932";
+  color: #737373;
+}
+.icon-plus:before {
+  content: "\e92c";
+  color: #737373;
+}
+.icon-three-dots:before {
+  content: "\e92d";
+  color: #737373;
+}
+.icon-calendar:before {
+  content: "\e92e";
+  color: #737373;
+}
+.icon-checkmark:before {
+  content: "\e92f";
+  color: #737373;
+}
+.icon-arrow_down:before {
+  content: "\e930";
+}
+.icon-arrow-up:before {
+  content: "\e92a";
+}
+.icon-menu-2:before {
+  content: "\e92b";
+}
+.icon-rss:before {
+  content: "\e927";
+}
+.icon-twitter:before {
+  content: "\e928";
+}
+.icon-vimeo:before {
+  content: "\e929";
+}
+.icon-napovedujemo:before {
+  content: "\e923";
+}
+.icon-narocite-se:before {
+  content: "\e924";
+}
+.icon-natisni:before {
+  content: "\e925";
+}
+.icon-pretekle-objave:before {
+  content: "\e926";
+}
+.icon-imena-in-rojstni-dnevi:before {
+  content: "\e91d";
+  color: #fff;
+}
+.icon-publikacije:before {
+  content: "\e91e";
+  color: #fff;
+}
+.icon-si-stat:before {
+  content: "\e91f";
+  color: #fff;
+}
+.icon-stage:before {
+  content: "\e920";
+}
+.icon-grb:before {
+  content: "\e900";
+  color: #0062ad;
+}
+.icon-bdp-in-nacionalni-racuni:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-cene-in-inflacija:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-delo-in-brezposelnost:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-ekonomski-odnosi-s-tujino:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-energetika:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-evropski-podatki:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-gradbenistvo:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-industrija:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-izobrazevanje:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-kakovost-zivljenja:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-kmetijstvo-gozdarstvo-ribistvo:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-kultura-in-mediji:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-okolje:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-place:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-podjetja:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon-podnebje:before {
+  content: "\e915";
+  color: #fff;
+}
+.icon-prebivalstvo:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon-razvoj-in-tehnologija:before {
+  content: "\e917";
+  color: #fff;
+}
+.icon-regionalni-pregled:before {
+  content: "\e918";
+  color: #fff;
+}
+.icon-socialna-zascita:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon-transport:before {
+  content: "\e91a";
+  color: #fff;
+}
+.icon-trgovina-in-storitve:before {
+  content: "\e91b";
+  color: #fff;
+}
+.icon-turizem:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon-bag:before {
+  content: "\e901";
+}
+.icon-business:before {
+  content: "\e902";
+}
+.icon-graphic:before {
+  content: "\e903";
+}
+.icon-people:before {
+  content: "\e904";
+}
+.icon-symbol:before {
+  content: "\e905";
+}
+.icon-zip-file-format:before {
+  content: "\e953";
+}
+.icon-tiff-file-extension-symbol:before {
+  content: "\e954";
+}
+.icon-xls-file-format-symbol:before {
+  content: "\e955";
+}
+.icon-pptx-file-format:before {
+  content: "\e956";
+}
+.icon-ppt-business-presentation-file-format-symbol:before {
+  content: "\e957";
+}
+.icon-pps-file-format:before {
+  content: "\e958";
+}
+.icon-jpg-file-format-variant:before {
+  content: "\e959";
+}
+.icon-html-file-extension-interface-symbol:before {
+  content: "\e95a";
+}
+.icon-docx-file-format-symbol:before {
+  content: "\e95b";
+}
+.icon-doc-file-format:before {
+  content: "\e95c";
+}
+.icon-fb:before {
+  content: "\e95f";
+}
+.icon-search:before {
+  content: "\e921";
+}
+.icon-menu:before {
+  content: "\e922";
+}
+.icon-clock2:before {
+  content: "\e94e";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+.icon-radio-checked:before {
+  content: "\ea54";
+}

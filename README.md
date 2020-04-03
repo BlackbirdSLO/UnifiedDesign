@@ -1,1 +1,1 @@
-# UnifiedDesign
+Projekt vsebuje datoteke, ki nam pomagajo doseči enoten izgled aplikacij na spletišču www.stat.si.
