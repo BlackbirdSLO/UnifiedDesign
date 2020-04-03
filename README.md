@@ -3,6 +3,10 @@
 Projekt je osnovan na front-end templatu html5boilerplate, https://html5boilerplate.com/.
 Vsebuje datoteke, ki nam pomagajo doseči enoten izgled aplikacij na spletišču www.stat.si.
 
+Live verzija na:
+https://beta.stat.si/SursWebpageTemplate/
+
+
 Pa poglejmo kaj vse se skriva v projektu (poleg index.html):
 
 ## css
