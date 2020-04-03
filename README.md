@@ -34,9 +34,11 @@ SURS logotipa
 
 ## js
  - main.js
- Funkcija hamburgerFunction() skrbi za delovanje hamburger menija
+
+Funkcija hamburgerFunction() skrbi za delovanje hamburger menija
 
 - jquery-3.4.1-min.js 
+
 Fallback v primeru nedelovanja cdn omrežja in za offline development
 
 
@@ -45,7 +47,9 @@ Fallback v primeru nedelovanja cdn omrežja in za offline development
 - apple-touch-icon.png
 - favicon-16x16.png
 - icon.png
+
 Apple bookmark in Favicon 
 
 - LICENCE.txt
+
 Html5Bolierplate Licenca
