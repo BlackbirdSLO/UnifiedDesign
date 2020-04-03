@@ -6,7 +6,7 @@ Vsebuje datoteke, ki nam pomagajo doseči enoten izgled aplikacij na spletišču
 Pa poglejmo kaj vse se skriva v projektu:
 
 
-##css
+## css
 - main.css
 Tipografske izboljšave, popravki postavitev določenih html elementov, popravek text-shadow hrošča...
 Več info: https://github.com/h5bp/main.css#features
@@ -22,19 +22,18 @@ Ni nujno obvezno, je pa fajn. Več info: https://necolas.github.io/normalize.css
 Potreben za delovanje icomoon ikon
 
 
-##fonts
+## fonts
 - icomoon.eot / icomoon.svg / icomoon.ttf / icomoon.woff / selection.json
 
 Potrebne datoteke za delovanje icomoon ikon
 
-
-##img
+## img
 - Logo_web_SLO.svg
 - Logo_web_ang.svg
 SURS logotipa
 
 
-##js
+## js
  - main.js
  Funkcija hamburgerFunction() skrbi za delovanje hamburger menija
 
