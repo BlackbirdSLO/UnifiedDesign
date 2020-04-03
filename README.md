@@ -32,9 +32,8 @@ Potrebne datoteke za delovanje icomoon ikon
 
 ## img
 - Logo_web_SLO.svg
-- Logo_web_ang.svg
 
-SURS logotipa
+SURS logotip
 
 
 ## js
