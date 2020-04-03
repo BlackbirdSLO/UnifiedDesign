@@ -7,17 +7,21 @@ Pa poglejmo kaj vse se skriva v projektu (poleg index.html):
 
 ## css
 - main.css
+
 Tipografske izboljšave, popravki postavitev določenih html elementov, popravek text-shadow hrošča...
 Več info: https://github.com/h5bp/main.css#features
 
 - normalize.css
+
 "Resetira" privzete nastavitve brskalnikov, da je izgled čimbolj konsistenten.
 Ni nujno obvezno, je pa fajn. Več info: https://necolas.github.io/normalize.css/
 
 - surs.css
+
 "Naš" styling
  
 - fonts.css
+
 Potreben za delovanje icomoon ikon
 
 
@@ -29,6 +33,7 @@ Potrebne datoteke za delovanje icomoon ikon
 ## img
 - Logo_web_SLO.svg
 - Logo_web_ang.svg
+
 SURS logotipa
 
 
